@@ -233,4 +233,11 @@ export const certificate = [
     type: "Online",
     position: "Certificado de Finalización",
   },
+  {
+    name: "Associate Data Engineer - Databricks",
+    issuer: "DataCamp",
+    date: "2026",
+    type: "Online",
+    position: "Certificado de Finalización",
+  },
 ];
