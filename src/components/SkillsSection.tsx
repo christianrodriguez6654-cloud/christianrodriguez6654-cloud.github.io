@@ -88,7 +88,7 @@ export default function SkillsSection() {
                 ))}
               </div>
             </GlassCard>
-          </motion.div>
+          </motion.div> 
 
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">

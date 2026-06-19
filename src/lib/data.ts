@@ -1,12 +1,12 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
-  profilePicture: "/profile.jpeg",
+  name: "Christian Rodriguez Messa",
+  location: "Colombia",
+  email: "criromes95@gmail.com",
+  github: "https://github.com/ChrisRodM12",
+  linkedin: "https://www.linkedin.com/in/christian-rodriguez-messa-68b41926b/",
+  profilePicture: "/imagen_profesional.png",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Estudiante de último semestre de Ingeniería Informática con conocimientos en desarrollo Backend usando Node.js, Express.js, PostgreSQL, Docker y APIs REST. Complemento mi formación con conocimientos en Ingeniería de Datos utilizando SQL, Python, Spark y Databricks. Busco una oportunidad de prácticas para iniciar mi carrera profesional y continuar desarrollando habilidades en Backend y Datos.",
 };
 
 export const workExperience = [
@@ -63,25 +63,27 @@ export const education = [
 ];
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "JavaScript",
+    "Python",
+    "SQL",
+    "Scala",
   ],
   frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
+  backendDevelopment: [
+    "LoremNode", 
+    "IpsumExpress"
+  ],
+  databaseAndStorage: [
+    "LoremDB", 
+    "IpsumORM"
+  ],
+  cloudAndDevOps: [
+    "LoremCloud"
+
+  ],
   toolsAndServices: [
     "LoremAuth",
     "IpsumCMS",
