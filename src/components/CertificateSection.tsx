@@ -14,7 +14,7 @@ export default function CertificatesSection() {
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🏆 Certificates
+            🏆 Certificados
           </h2>
         </MotionWrapper>
 
@@ -52,7 +52,7 @@ export default function CertificatesSection() {
                     whileHover={{ scale: 1.05 }}
                   >
                     {cert.type === "International" ? "🌎 " : "🇮🇳 "}
-                    {cert.type}
+                    {cert.type === "International" ? "Internacional" : cert.type === "Online" ? "En línea" : cert.type}
                   </motion.span>
                 </div>
               </GlassCard>
