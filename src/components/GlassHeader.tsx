@@ -9,6 +9,14 @@ export default function GlassHeader() {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
+  const labels: { [key: string]: string } = {
+    experience: "Experiencia",
+    skills: "Habilidades",
+    projects: "Proyectos",
+    awards: "Premios",
+    education: "Educación",
+  };
+
   return (
     <header className="sticky z-50 w-full backdrop-blur-md backdrop-filter bg-background/70 dark:bg-background/40 border-b border-border/40 supports-[backdrop-filter]:bg-background/60">
       <div className="container max-w-4xl mx-auto p-4 flex justify-between items-center">
@@ -18,7 +26,7 @@ export default function GlassHeader() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          ✨ {personalInfo.name}
+          📁 Portafolio
         </motion.a>
 
         {/* Desktop Navigation */}
@@ -39,7 +47,7 @@ export default function GlassHeader() {
                 {item === "projects" && "🚀 "}
                 {item === "awards" && "🏆 "}
                 {item === "education" && "🎓 "}
-                {item.charAt(0).toUpperCase() + item.slice(1)}
+                {labels[item] || (item.charAt(0).toUpperCase() + item.slice(1))}
               </motion.a>
             )
           )}
@@ -87,7 +95,7 @@ export default function GlassHeader() {
                     {item === "projects" && "🚀 "}
                     {item === "awards" && "🏆 "}
                     {item === "education" && "🎓 "}
-                    {item.charAt(0).toUpperCase() + item.slice(1)}
+                    {labels[item] || (item.charAt(0).toUpperCase() + item.slice(1))}
                   </motion.a>
                 )
               )}
