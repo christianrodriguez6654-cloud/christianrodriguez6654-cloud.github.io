@@ -6,7 +6,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/christian-rodriguez-messa-68b41926b/",
   profilePicture: "/imagen_profesional.png",
   heroDescription:
-    "Estudiante de último semestre de Ingeniería Informática con conocimientos en desarrollo Backend usando Node.js, Express.js, PostgreSQL, Docker y APIs REST. Complemento mi formación con conocimientos en Ingeniería de Datos utilizando SQL, Python, Spark y Databricks. Busco una oportunidad de prácticas para iniciar mi carrera profesional y continuar desarrollando habilidades en Backend y Datos.",
+    "Estudiante de último semestre de Ingeniería Informática con conocimientos en desarrollo Backend usando Node.js, Express.js, PostgreSQL y APIs REST. Complemento mi formación con conocimientos en Ingeniería de Datos utilizando SQL, Python, Spark y Databricks. Busco una oportunidad de prácticas para iniciar mi carrera profesional y continuar desarrollando habilidades en Backend y Datos.",
 };
 
 export const workExperience = [
@@ -49,21 +49,36 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    institution: "Universidad de Caldas",
+    location: "Manizales, Colombia",
+    degree: "Tecnólogo en Sistemas Informáticos",
+    period: "2016 - 2019",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "* Desarrollo de Software.",
+      "* Administración de Redes.",
+      "* Gestión de Bases de Datos.",
+      "* Soporte Técnico Integral.",
+      "* Liderazgo e Innovación.",
+    ],
+  },
+  {
+    institution: "Universidad de Caldas",
+    location: "Manizales, Colombia",
+    degree: "Ingeniero en Informática",
+    period: "2022 - Present",
+    achievements: [
+      "* Gestión Estratégica de TI.",
+      "* Desarrollo de Inteligencia Artificial y Datos.",
+      "* Liderazgo de Proyectos Tecnológicos.",
+      "* Arquitectura de Soluciones Integrales.",
+      "* Investigación, Innovación y Transformación Digital.",
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
     "JavaScript",
+    "TypeScript",
     "Python",
     "SQL",
     "Scala",
@@ -71,27 +86,49 @@ export const skills = {
   frontendDevelopment: [
     "HTML",
     "CSS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Astro",
+    "React",
+    "Vue",
+    "Next",
   ],
   backendDevelopment: [
-    "LoremNode", 
-    "IpsumExpress"
+    "NodeJS", 
+    "ExpressJS",
+    "NestJS",
+    "Fastify",
+    "Django",
+    "Flask",
+    "FastAPI",
   ],
   databaseAndStorage: [
-    "LoremDB", 
-    "IpsumORM"
+    "PostgreSQL",
+    "MySQL", 
+    "Firebase",
+    "Databricks SQL",
+    "Apache Spark",
+    "Apache Airflow",
   ],
   cloudAndDevOps: [
-    "LoremCloud"
-
+    "Azure",
+    "Google Cloud",
+    "Docker",
+    "Kubernetes",
+    "GitHub Actions",
   ],
   toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
+    "Git",
+    "GitHub",
+    "Jira",
+    "Trello",
+    "Slack",
+    "Postman",
+    "Visual Studio Code",
+    "IntelliJ IDEA",
+    "PyCharm",
+    "Power BI",
+    "Looker",
   ],
 };
 
@@ -120,7 +157,7 @@ export const projects = [
   },
 ];
 
-export const awards = [
+export const certificate = [
   {
     name: "Lorem Ipsum Award",
     issuer: "Lorem Organization",
