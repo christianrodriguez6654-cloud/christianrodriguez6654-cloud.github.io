@@ -58,7 +58,7 @@ export const education = [
     institution: "Universidad de Caldas",
     location: "Manizales, Colombia",
     degree: "Ingeniero en Informática",
-    period: "2022 - Present",
+    period: "2022 - Actualidad",
     achievements: [
       "* Gestión Estratégica de TI.",
       "* Desarrollo de Inteligencia Artificial y Datos.",
@@ -153,25 +153,25 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "Convertir Unidades",
+    github: "https://github.com/christianrodriguez6654-cloud/Backend_Projects",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "El proyecto realizado hace parte de la ruta de Proyectos Backend que ofrece la página roadmap.sh",
+      "Enlace web: https://roadmap.sh/projects/unit-converter",
+      "Crear una aplicación web que convierta valores entre distintas unidades de medida (longitud, peso, temperatura).",
+      "El usuario ingresa un número y selecciona unidad de origen y destino. El sistema muestra el valor convertido.",
+      "Es un proyecto introductorio que refuerza conceptos de entrada/salida de datos, fomenta la práctica de estructuración de páginas web, y sirve como base para expandir hacia aplicaciones más completas.",
     ],
   },
   {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
+    title: "API Metereológica",
+    github: "https://github.com/christianrodriguez6654-cloud/Backend_Projects",
     description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+      "El proyecto realizado salió como idea y reto de: 20 ideas para proyectos de backend: de principiantes a profesionales",
+      "Enlace web: https://www.geeksforgeeks.org/blogs/backend-project-ideas/",
+      "Crear una API que extraiga datos meteorológicos en tiempo real de OpenWeatherMap.",
+      "Los usuarios pueden consultar el tiempo de cualquier ciudad y guardar consultas meteorológicas como tareas.",
+      "Este proyecto combina programación backend con consumo de servicios externos, ideal para aprender cómo conectar aplicaciones con datos en tiempo real y gestionar información de manera organizada.",
     ],
   },
 ];
